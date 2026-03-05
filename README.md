@@ -3,13 +3,14 @@
 <h3>Modern ASP.NET Core Implementation | .NET 10</h3>
 <h4>Educational purposes</h4>
 <h4>Demo.Site:  https://www.theskylite.com/SkyLiteProject</h4>
-________________________________________
-Introduction
+
+
+<h3>Introduction</h3>
 The SkyNetDemo project serves as a comprehensive and practical showcase of the SkyNet framework's capabilities for building modern, data-driven web applications on ASP.NET Core. It demonstrates how various UI controls and core framework features can be seamlessly integrated to create a cohesive, interactive, and personalized user experience.
 The application presents a classic dashboard-style interface, typical of an administrative portal or a logged-in user's home page, and effectively utilizes the framework's server-centric, AJAX-driven architecture built on modern ASP.NET Core middleware.
 SkyNet is the next-generation evolution of the SKYLITE framework(.Net framework 4.5+), rebuilt from the ground up for ASP.NET Core and .NET 10, providing a modern, cross-platform foundation while maintaining the same elegant patterns and developer-friendly API.
-________________________________________
-Architectural and Feature Highlights
+
+<h3>Architectural and Feature Highlights</h3>
 1. Core Architectural Patterns & Design Choices
 The project consistently follows several powerful architectural patterns that are central to the SkyNet philosophy:
 Middleware-Based Architecture
