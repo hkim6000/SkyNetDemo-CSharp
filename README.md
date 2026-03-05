@@ -136,7 +136,7 @@ public static class StaticHttpCurrent<br>
 }<br>
 
 <br>
-<h3>Key Features Demonstrated</h3><br><br>
+<h3>Key Features Demonstrated</h3><br>
 <b>Complete Authentication System</b><br>
 •	Secure login with encrypted passwords<br>
 •	Email-based registration with OTP verification<br>
