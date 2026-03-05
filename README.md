@@ -166,7 +166,7 @@ public static class StaticHttpCurrent<br>
 •	Excel-like data entry forms<br>
 •	File upload and management<br>
 •	Bulletin/announcement system<br>
-•	Audit logging (SYSDTE, SYSUSR fields)<br>
+•	Audit logging (SYSDTE, SYSUSR fields)<br><br>
 <b>Modern UI Components</b><br>
 All components from SkyNet ToolKit:<br>
 •	Texts (text, password, email, date, number, etc.)<br>
