@@ -54,7 +54,7 @@ The project consistently follows several powerful architectural patterns that ar
 •	Cloud-ready and container-friendly<br>
 ________________________________________
 
-<h3>Project Structure</h3><br><br>
+<h3>Project Structure</h3><br>
 ASPNETCoreWeb/<br>
 ├── Codes/              # Business logic classes (C#)<br>
 │   ├── XysUser         # User management main page<br>
