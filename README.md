@@ -41,12 +41,12 @@ The project consistently follows several powerful architectural patterns that ar
 <b>Clean Architecture</b><br>
 •	Centralized Constants: References structure provides single source for page names, session keys, element IDs<br>
 •	Separation of Concerns: Clear boundaries between data access, business logic, and presentation<br>
-•	Reusable Components: Base classes and shared utilities minimize code duplication<br>
+•	Reusable Components: Base classes and shared utilities minimize code duplication<br><br>
 <b>Thin Client Pattern</b><br>
 •	JavaScript files kept minimal<br>
 •	Primary responsibilities: DOM data collection and $ApiRequest initiation<br>
 •	All significant logic, validation, and UI orchestration handled securely on server<br>
-•	Reduces client-side complexity and attack surface<br>
+•	Reduces client-side complexity and attack surface<br><br>
 <b>Modern .NET Practices</b><br>
 •	Built on ASP.NET Core and .NET 10<br>
 •	Cross-platform compatibility (Windows, Linux, macOS)<br>
