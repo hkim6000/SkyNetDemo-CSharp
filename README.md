@@ -1,8 +1,6 @@
 <h2>SkyNetDemo Project: A SkyNet Framework Showcase</h2>
 
 <h3>Modern ASP.NET Core Implementation | .NET 10</h3>
-
-
 <br>
 
 - SKYLITE framework (C#/VB) <br>
