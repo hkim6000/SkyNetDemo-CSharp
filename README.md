@@ -111,7 +111,7 @@ Prerequisite : install thru menu-view-terminal in Visual Studio<br>
 ("hotReloadEnabled=true" could interrupt page display while development)<br><br>
 //////////////////////////////////////////////////////////<br>
 <b> ⭐ 6.</b> program.cs for Asp.Net Core</b><br>
-<b>
+<br>
 ------------------------------------------------------------------------------<br>
 using SkyNet;<br>
 <br>
