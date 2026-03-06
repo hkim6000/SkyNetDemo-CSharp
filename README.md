@@ -95,7 +95,7 @@ ASPNETCoreWeb/<br>
 ├── Program.cs             # ASP.NET Core startup<br><br>
 
 
-**** unzip "bin.zip" and copy to project folder<br>
+**** unzip "bin_folder_backup.zip" to restore project-bin-folder<br>
 
 ----------------------------------------------------------------------------------------<br>
 
