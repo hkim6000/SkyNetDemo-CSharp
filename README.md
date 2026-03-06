@@ -108,36 +108,30 @@ using SkyNet;<br>
 <br>
 var builder = WebApplication.CreateBuilder(args);<br>
 <br>
+
 //////////////////////////////////////////////////////////<br>
-//  0.prerequisite : install - view terminal & Edit project file<br>
+//  Prerequisite : install thru menu-view-terminal in Visual Studio<br>
 //  - dotnet add package Microsoft.Data.SqlClient<br>
 //  - dotnet add package System.Drawing.Common<br>
 //  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false<br>
 //////////////////////////////////////////////////////////<br>
+// "hotReloadEnabled=true" could interrupt page display while development
+//////////////////////////////////////////////////////////<br>
 
 //////////////////////////////////////////////////////////<br>
-//1.Add HttpContext Service<br>
-builder.Services.AddHttpContextAccessor(); <br>
+builder.Services.AddHttpContextAccessor(); <b>//1.Add HttpContext Service</b><br>
 //////////////////////////////////////////////////////////<br>
 
 var app = builder.Build();<br>
 
 //////////////////////////////////////////////////////////<br>
-//2. use SKYNET.IHANDLER as middleware service<br>
+app.UseMiddleware<IHandler>();  <b>//2. use SKYNET.IHANDLER as middleware service</b><br>
+app.UseStaticHttpCurrent(); <b>//3. use static http class service</b><br> 
 //////////////////////////////////////////////////////////<br>
-app.UseMiddleware<IHandler>();<br>
-//////////////////////////////////////////////////////////<br>
- 
-//////////////////////////////////////////////////////////<br>
-//3. use static http class service<br>
-//////////////////////////////////////////////////////////<br>
-app.UseStaticHttpCurrent(); <br>
-//////////////////////////////////////////////////////////<br>
+
 <br>
 app.Run();<br>
 <br>
-//////////////////////////////////////////////////////////<br>
-//////////////////////////////////////////////////////////<br>
 
 <br>
 <h3>Key Features Demonstrated</h3><br>
