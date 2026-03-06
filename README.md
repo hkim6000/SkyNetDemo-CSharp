@@ -94,45 +94,6 @@ ASPNETCoreWeb/<br>
 
 **** unzip "bin_folder_backup.zip" to restore project-bin-folder<br>
 
-----------------------------------------------------------------------------------------<br>
-
-<h3>Getting Started for Your Own Asp.Net Core Project</h3><br>
-//////////////////////////////////////////////////////////<br>
-<b>1.</b> Create a empty web project<br>
-<b>2.</b> Add Project Reference : <b>SKYNET.dll</b><br>
-(the SKYNET.dll file is in the bin\Debug\net10.0 foler in this demo project)<br>
-//////////////////////////////////////////////////////////<br>
-Prerequisite : install thru menu-view-terminal in Visual Studio<br>
-<b>3.</b> Excute command in the terminal:<br>
-      &nbsp;&nbsp;&nbsp;(<b>dotnet add package Microsoft.Data.SqlClient</b>)<br><br>
-<b>4.</b> Excute command in the terminal:<br>
-      &nbsp;&nbsp;&nbsp;(<b>dotnet add package System.Drawing.Common</b>)<br><br>
-<b>5.</b> Add option to Properties/launchsetting.json file  : <b>"hotReloadEnabled":false</b><br>
-("hotReloadEnabled=true" could interrupt page display while development)<br><br>
-//////////////////////////////////////////////////////////<br>
-<b> ⭐ 6. program.cs for Asp.Net Core</b><br>
-<br>
-------------------------------------------------------------------------------<br>
-using SkyNet;<br>
-<br>
-var builder = WebApplication.CreateBuilder(args);<br>
-<br>
-</b>
-
-//////////////////////////////////////////////////////////<br>
-<b>builder.Services.AddHttpContextAccessor();  // 1. Add HttpContext Service</b><br>
-//////////////////////////////////////////////////////////<br>
-
-<b>var app = builder.Build();</b><br>
-
-//////////////////////////////////////////////////////////<br>
-<b>app.UseMiddleware<IHandler>();  // 2. use SKYNET.IHANDLER as middleware service</b><br>
-<b>app.UseStaticHttpCurrent();     // 3. use static http class service</b><br> 
-//////////////////////////////////////////////////////////<br>
-<br>
-<b>app.Run();</b>b><br>
-------------------------------------------------------------------------------<br>
-<br>
 
 <br>
 <h3>Key Features Demonstrated</h3><br>
@@ -175,6 +136,47 @@ All components from SkyNet ToolKit:<br>
 •	Grid, SQLGridSection, DataGrid<br>
 •	DialogBox, FilterSection, MenuList<br>
 •	TitleSection2, ItemPanel, TreeView<br><br>
+
+
+----------------------------------------------------------------------------------------<br>
+
+<h3>Getting Started for Your Own Asp.Net Core Project</h3><br>
+//////////////////////////////////////////////////////////<br>
+<b>1.</b> Create a empty web project<br>
+<b>2.</b> Add Project Reference : <b>SKYNET.dll</b><br>
+(the SKYNET.dll file is in the bin\Debug\net10.0 foler in this demo project)<br>
+//////////////////////////////////////////////////////////<br>
+Prerequisite : install thru menu-view-terminal in Visual Studio<br>
+<b>3.</b> Excute command in the terminal:<br>
+      &nbsp;&nbsp;&nbsp;(<b>dotnet add package Microsoft.Data.SqlClient</b>)<br><br>
+<b>4.</b> Excute command in the terminal:<br>
+      &nbsp;&nbsp;&nbsp;(<b>dotnet add package System.Drawing.Common</b>)<br><br>
+<b>5.</b> Add option to Properties/launchsetting.json file  : <b>"hotReloadEnabled":false</b><br>
+("hotReloadEnabled=true" could interrupt page display while development)<br><br>
+//////////////////////////////////////////////////////////<br>
+<b> ⭐ 6. program.cs for Asp.Net Core</b><br>
+<br>
+------------------------------------------------------------------------------<br>
+using SkyNet;<br>
+<br>
+var builder = WebApplication.CreateBuilder(args);<br>
+<br>
+</b>
+
+//////////////////////////////////////////////////////////<br>
+<b>builder.Services.AddHttpContextAccessor();  // 1. Add HttpContext Service</b><br>
+//////////////////////////////////////////////////////////<br>
+
+<b>var app = builder.Build();</b><br>
+
+//////////////////////////////////////////////////////////<br>
+<b>app.UseMiddleware<IHandler>();  // 2. use SKYNET.IHANDLER as middleware service</b><br>
+<b>app.UseStaticHttpCurrent();     // 3. use static http class service</b><br> 
+//////////////////////////////////////////////////////////<br>
+<br>
+<b>app.Run();</b>b><br>
+------------------------------------------------------------------------------<br>
+<br>
 
 <h3>Framework Philosophy</h3>
 <b>Server-Centric, AJAX-Driven</b>br>
