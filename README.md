@@ -109,7 +109,6 @@ ASPNETCoreWeb/<br>
 //////////////////////////////////////////////////////////<br><br>
 <b> ⭐ program.cs</b><br><br><br>
 <b>
-using System.Reflection.Metadata;<br>
 using SkyNet;<br>
 <br>
 var builder = WebApplication.CreateBuilder(args);<br>
