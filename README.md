@@ -153,8 +153,18 @@ Prerequisite : install thru menu-view-terminal in Visual Studio<br>
       &nbsp;&nbsp;&nbsp;(<b>dotnet add package System.Drawing.Common</b>)<br><br>
 <b>5.</b> Add option to Properties/launchsetting.json file  : <b>"hotReloadEnabled":false</b><br>
 ("hotReloadEnabled=true" could interrupt page display while development)<br><br>
+<b>6.</b> Add some folders in "Edit Project File" menu<br>
+├── appConfig/<br>
+├── data/                  # Data storage folder<br>
+├── htmls/                 # HTML email templates<br>
+├── images/                # Static images<br>
+├── logs/                  # Application logs<br>
+├── scripts/               # JavaScript files<br>
+├── styles/                # CSS stylesheets<br>
+├── temp/                  # Temporary files<br>
+ 
 //////////////////////////////////////////////////////////<br>
-<b> ⭐ 6. program.cs for Asp.Net Core</b><br>
+<b> ⭐ 7. program.cs for Asp.Net Core</b><br>
 <br>
 ------------------------------------------------------------------------------<br>
 using SkyNet;<br>
