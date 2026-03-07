@@ -1,4 +1,0 @@
-﻿function NavXysSignin() {
-    $WaitOn();
-    $ApiRequest();
-} 
