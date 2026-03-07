@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////
-//  prerequisite : install - view terminal & Edit project file
+//  prerequisite :  install thru menu-view-terminal in Visual Studio
 //  - dotnet add package Microsoft.Data.SqlClient
 //  - dotnet add package System.Drawing.Common
 //  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false
@@ -21,3 +21,4 @@ app.UseStaticHttpCurrent();    //3. use static http class service
 //////////////////////////////////////////////////////////
 
 app.Run();
+
